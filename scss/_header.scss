@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    align-items: center;
+    background: $header-background;
+    height: $header-height;
+    padding: 0 10px;
+
+    div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    img {
+        display: block;
+        height: $logo-height;
+        float: left;
+    }
+
+    #download-link:link,
+    #download-link:hover,
+    #download-link:visited,
+    #download-link:active {
+        display: block;
+        float: left;
+        position: absolute;
+        right: 0;
+        border: $download-link-border;
+        border-radius: $download-link-border-radius;
+        font-size: $download-link-font-size;
+        line-height: $download-link-line-height;
+        padding: $download-link-padding;
+        white-space: nowrap;
+        text-decoration: none;
+        color: black;
+    }
+}

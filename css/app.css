@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.clear-fix::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+header {
+  display: flex;
+  align-items: center;
+  background: white;
+  height: 80px;
+  padding: 0 10px; }
+  header div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative; }
+  header h1 {
+    display: none; }
+  header img {
+    display: block;
+    height: 35px;
+    float: left; }
+  header #download-link:link,
+  header #download-link:hover,
+  header #download-link:visited,
+  header #download-link:active {
+    display: block;
+    float: left;
+    position: absolute;
+    right: 0;
+    border: 1px #CACACA solid;
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black; }
