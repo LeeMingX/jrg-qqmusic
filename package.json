@@ -1,0 +1,23 @@
+{
+  "name": "jrg-qqmusic",
+  "version": "1.0.0",
+  "description": "仿一个移动端的qq music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeMingX/jrg-qqmusic.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mouse Lee",
+    "email": "a543748616@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeMingX/jrg-qqmusic/issues"
+  },
+  "homepage": "https://github.com/LeeMingX/jrg-qqmusic#readme"
+}
