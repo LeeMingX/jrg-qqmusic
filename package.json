@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/LeeMingX/jrg-qqmusic/issues"
   },
-  "homepage": "https://github.com/LeeMingX/jrg-qqmusic#readme"
+  "homepage": "https://github.com/LeeMingX/jrg-qqmusic#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "swiper": "^4.5.0"
+  }
 }
