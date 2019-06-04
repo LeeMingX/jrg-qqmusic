@@ -39,25 +39,3 @@ class Slider {
         this.slider = new Swiper(this.slide_cls, this.options)
     }
 }
-// ! function () {
-//     let swiper_generator = {
-//         view: '.swiper-container',
-//         init_attr: {
-//             slidesPerView: 1,
-//             spaceBetween: 0,
-//             loop: true,
-//             autoplay: {
-//                 delay: 2500,
-//                 disableOnInteraction: false
-//             },
-//             pagination: {
-//                 el: '.swiper-pagination',
-//                 clickable: false,
-//             }
-//         },
-//         init: function () {
-//             return new Swiper(this.view, this.init_attr)
-//         }
-//     }
-//     let swiper = swiper_generator.init()
-// }()

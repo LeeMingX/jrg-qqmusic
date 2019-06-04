@@ -22,4 +22,6 @@ $(document).ready(function () {
             }
         ])
     slider.render()
+
+    let nav = new NavigationBar($("nav>ul>li"), $("section>div"))
 })
