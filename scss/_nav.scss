@@ -1,0 +1,32 @@
+nav>ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    li {
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+        background: #FBFBFB;
+        color: #8C8C8C;
+        display: inline-block;
+        position: relative;
+        width: $nav-tab-width;
+
+        & ::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+
+        &.active {
+            color: #68C288;
+
+            & ::after {
+                border-bottom: 2px solid #68C288;
+            }
+        }
+    }
+}

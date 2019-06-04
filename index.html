@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
     <link rel="stylesheet" href="css/app.css">
@@ -18,18 +18,28 @@
             <a href="javascript:;" id="download-link">下载APP</a>
         </div>
     </header>
+    <nav>
+        <ul>
+            <li><span>推荐</span></li>
+            <li><span>排行榜</span></li>
+            <li><span>搜索</span></li>
+        </ul>
+    </nav>
     <section>
-        <!-- Slider main container -->
-        <div class="swiper-container">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper"></div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        <div class="recommand">
+            <div class="swiper-container">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
+        <div class="rank">排行榜</div>
+        <div class="search">搜索</div>
     </section>
+    <footer></footer>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
     <script src="scripts/slide.js"></script>
+    <script src="scripts/nav.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 
