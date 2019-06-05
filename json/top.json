@@ -1,0 +1,281 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "topList": [{
+            "id": 4,
+            "listenCount": 19500000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001ki9vx2MkIYU.jpg",
+            "songList": [{
+                "singername": "焦迈奇",
+                "songname": "我的名字"
+            }, {
+                "singername": "Bharatt - Saurabh",
+                "songname": "Mila Jo Tu"
+            }, {
+                "singername": "G.E.M. 邓紫棋",
+                "songname": "来自天堂的魔鬼"
+            }],
+            "topTitle": "巅峰榜·流行指数",
+            "type": 0
+        }, {
+            "id": 26,
+            "listenCount": 19300000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001ll6MW2vzbCw.jpg",
+            "songList": [{
+                "singername": "G.E.M. 邓紫棋",
+                "songname": "来自天堂的魔鬼"
+            }, {
+                "singername": "陈雪凝",
+                "songname": "你的酒馆对我打了烊"
+            }, {
+                "singername": "陈雪凝",
+                "songname": "灰姑娘"
+            }],
+            "topTitle": "巅峰榜·热歌",
+            "type": 0
+        }, {
+            "id": 27,
+            "listenCount": 3331900,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003NYB1p123a5l.jpg",
+            "songList": [{
+                "singername": "陈雪凝",
+                "songname": "灰姑娘"
+            }, {
+                "singername": "刘宪华 (Henry)",
+                "songname": "当你孤单你会想起谁"
+            }, {
+                "singername": "周深",
+                "songname": "拙慕"
+            }],
+            "topTitle": "巅峰榜·新歌",
+            "type": 0
+        }, {
+            "id": 58,
+            "listenCount": 4951060,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003kAV3J4P0AkI.jpg",
+            "songList": [{
+                "singername": "黄子韬/GAI",
+                "songname": "不劳不获"
+            }, {
+                "singername": "孟子坤",
+                "songname": "TELL ME WHY"
+            }, {
+                "singername": "吴亦凡",
+                "songname": "大碗宽面"
+            }],
+            "topTitle": "说唱榜",
+            "type": 0
+        }, {
+            "id": 57,
+            "listenCount": 2910540,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001UdcaF0yDF1b.jpg",
+            "songList": [{
+                "singername": "Kygo/Chelsea Cutler",
+                "songname": "Not Ok"
+            }, {
+                "singername": "尚雯婕",
+                "songname": "Running Out"
+            }, {
+                "singername": "Vicetone/Daisy Guttridge/Eric Leva",
+                "songname": "Waiting"
+            }],
+            "topTitle": "电音榜",
+            "type": 0
+        }, {
+            "id": 28,
+            "listenCount": 9300000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000016jYnv2hFgZt.jpg",
+            "songList": [{
+                "singername": "魏新雨",
+                "songname": "余情未了"
+            }, {
+                "singername": "Ice paper",
+                "songname": "心如止水"
+            }, {
+                "singername": "杨胖雨",
+                "songname": "情深深雨濛濛"
+            }],
+            "topTitle": "巅峰榜·网络歌曲",
+            "type": 0
+        }, {
+            "id": 5,
+            "listenCount": 6090960,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001U6SS20uJyiX.jpg",
+            "songList": [{
+                "singername": "陈雪凝",
+                "songname": "灰姑娘"
+            }, {
+                "singername": "尤长靖",
+                "songname": "一颗星的夜"
+            }, {
+                "singername": "李宇春/吴青峰",
+                "songname": "作为怪物"
+            }],
+            "topTitle": "巅峰榜·内地",
+            "type": 0
+        }, {
+            "id": 3,
+            "listenCount": 9500000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001MbcPW1DnLF5.jpg",
+            "songList": [{
+                "singername": "Ed Sheeran/Chance the Rapper/PnB Rock",
+                "songname": "Cross Me"
+            }, {
+                "singername": "Taylor Swift/Brendon Urie",
+                "songname": "ME! (feat. Brendon Urie of Panic! At The Disco)"
+            }, {
+                "singername": "OneRepublic",
+                "songname": "Rescue Me"
+            }],
+            "topTitle": "巅峰榜·欧美",
+            "type": 0
+        }, {
+            "id": 59,
+            "listenCount": 1960000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000046WH000eQWdZ.jpg",
+            "songList": [{
+                "singername": "李治廷",
+                "songname": "若雪"
+            }, {
+                "singername": "李治廷",
+                "songname": "I Know You Know"
+            }, {
+                "singername": "张敬轩",
+                "songname": "空手而来"
+            }],
+            "topTitle": "香港地区榜",
+            "type": 0
+        }, {
+            "id": 16,
+            "listenCount": 3440900,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003JMWIZ3A2gvo.jpg",
+            "songList": [{
+                "singername": "NCT 127 (엔씨티 127)",
+                "songname": "Highway to Heaven"
+            }, {
+                "singername": "NCT 127 (엔씨티 127)",
+                "songname": "Superhuman"
+            }, {
+                "singername": "GOT7 (갓세븐)",
+                "songname": "ECLIPSE"
+            }],
+            "topTitle": "巅峰榜·韩国",
+            "type": 0
+        }, {
+            "id": 60,
+            "listenCount": 18946664,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003pQCUv0WBETF.jpg",
+            "songList": [{
+                "singername": "G.E.M. 邓紫棋",
+                "songname": "来自天堂的魔鬼"
+            }, {
+                "singername": "魏新雨",
+                "songname": "余情未了"
+            }, {
+                "singername": "阿杜",
+                "songname": "撕夜"
+            }],
+            "topTitle": "抖音排行榜",
+            "type": 0
+        }, {
+            "id": 29,
+            "listenCount": 1980000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000004OykvC0glYPk.jpg",
+            "songList": [{
+                "singername": "鞠婧祎",
+                "songname": "青城山下白素贞"
+            }, {
+                "singername": "赵奕欢",
+                "songname": "那么喜欢你"
+            }, {
+                "singername": "李俊毅",
+                "songname": "两人份美好"
+            }],
+            "topTitle": "巅峰榜·影视金曲",
+            "type": 0
+        }, {
+            "id": 17,
+            "listenCount": 1459675,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002hXioJ3q8Fhg.jpg",
+            "songList": [{
+                "singername": "高橋一生 (たかはし いっせい)",
+                "songname": "きみに会いたい-Dance with you-"
+            }, {
+                "singername": "EGOIST (エゴイスト)",
+                "songname": "咲かせや咲かせ (绽放吧绽放)"
+            }, {
+                "singername": "moumoon (沐月)",
+                "songname": "Serendipitous(～Flyways～ IN YEBISU GARDEN HALL 2018.06.09)"
+            }],
+            "topTitle": "巅峰榜·日本",
+            "type": 0
+        }, {
+            "id": 201,
+            "listenCount": 1860540,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000PT8hk3wwCNV.jpg",
+            "songList": [{
+                "singername": "蔡徐坤",
+                "songname": "Hard To Get"
+            }, {
+                "singername": "汪苏泷",
+                "songname": "耿 (《最好的我们》电影毕业季主题曲)"
+            }, {
+                "singername": "Taylor Swift/Brendon Urie",
+                "songname": "ME! (feat. Brendon Urie of Panic! At The Disco)"
+            }],
+            "topTitle": "巅峰榜·MV",
+            "type": 0
+        }, {
+            "id": 52,
+            "listenCount": 516299,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000RjuL526DUKv.jpg",
+            "songList": [{
+                "singername": "赵政豪",
+                "songname": "船帆"
+            }, {
+                "singername": "街道办GDC/欧阳耀莹",
+                "songname": "离开"
+            }, {
+                "singername": "K邵庄",
+                "songname": "长大前"
+            }],
+            "topTitle": "巅峰榜·腾讯音乐人原创榜",
+            "type": 0
+        }, {
+            "id": 36,
+            "listenCount": 1920000,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001V0zGO04TVCL.jpg",
+            "songList": [{
+                "singername": "麓七",
+                "songname": "你的酒馆对我打了烊"
+            }, {
+                "singername": "K.D",
+                "songname": "心如止水 (Demo)"
+            }, {
+                "singername": "乐静",
+                "songname": "我曾"
+            }],
+            "topTitle": "巅峰榜·K歌金曲",
+            "type": 0
+        }, {
+            "id": 61,
+            "listenCount": 860370,
+            "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M00000415a7i1H3XmN.jpg",
+            "songList": [{
+                "singername": "梁静茹",
+                "songname": "慢冷"
+            }, {
+                "singername": "梁静茹",
+                "songname": "我好吗"
+            }, {
+                "singername": "梁静茹",
+                "songname": "微光"
+            }],
+            "topTitle": "台湾地区榜",
+            "type": 0
+        }]
+    }
+}

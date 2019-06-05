@@ -1,0 +1,41 @@
+.wow {
+    padding: 5% 20% 5%;
+
+    span,
+    p {
+        font-family: Wawati SC;
+    }
+
+    .chat {
+        text-align: center;
+
+        span {
+            line-height: 40px;
+            font-size: 20px;
+        }
+    }
+
+    .bullshit {
+
+        img {
+            float: left;
+            max-width: 50%;
+            vertical-align: middle;
+        }
+
+        p {
+            float: left;
+            font-size: 20px;
+            margin-left: 35px;
+            margin-top: 25px;
+        }
+    }
+
+    .junkinfo {
+        text-align: center;
+
+        span {
+            font-size: 10px;
+        }
+    }
+}

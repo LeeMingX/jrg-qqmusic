@@ -45,7 +45,8 @@ header {
 
 .swiper-slide img {
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  vertical-align: bottom; }
 
 .swiper-pagination-bullet-active {
   opacity: 1;
@@ -74,3 +75,80 @@ nav > ul {
       color: #68C288; }
       nav > ul li.active ::after {
         border-bottom: 2px solid #68C288; }
+
+.top {
+  grid-area: topic;
+  align-items: center; }
+  .top span {
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400; }
+
+.left {
+  grid-area: display-left; }
+
+.right {
+  grid-area: display-right; }
+
+.left img,
+.right img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+.display-container {
+  display: grid;
+  grid-template-columns: [left-start] auto [left-end] 10px [right-start] auto [right-end];
+  grid-template-rows: auto;
+  grid-template-areas: "topic topic topic" "display-left blank display-right";
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 7px; }
+
+.item {
+  position: relative; }
+
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  right: 2%;
+  top: 69%;
+  position: absolute;
+  background-image: url("../images/list_sprite.png");
+  background-repeat: no-repeat;
+  background-size: 24px 60px; }
+
+.desc {
+  padding-bottom: 1rem;
+  padding-left: 0.4rem;
+  background: white; }
+  .desc span {
+    line-height: 18px;
+    font-size: 14px; }
+
+.wow {
+  padding: 5% 20% 5%; }
+  .wow span,
+  .wow p {
+    font-family: Wawati SC; }
+  .wow .chat {
+    text-align: center; }
+    .wow .chat span {
+      line-height: 40px;
+      font-size: 20px; }
+  .wow .bullshit img {
+    float: left;
+    max-width: 50%;
+    vertical-align: middle; }
+  .wow .bullshit p {
+    float: left;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 25px; }
+  .wow .junkinfo {
+    text-align: center; }
+    .wow .junkinfo span {
+      font-size: 10px; }
+
+.recommand {
+  background: #f2f2f2; }

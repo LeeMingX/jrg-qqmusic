@@ -1,0 +1,66 @@
+.top {
+    grid-area: topic;
+    align-items: center;
+
+    span {
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.left {
+    grid-area: display-left;
+}
+
+.right {
+    grid-area: display-right;
+}
+
+.left,
+.right {
+    img {
+        max-width: 100%;
+        vertical-align: middle;
+    }
+}
+
+.display-container {
+    display: grid;
+    grid-template-columns: [left-start] auto [left-end] 10px [right-start] auto [right-end];
+    grid-template-rows: auto;
+    grid-template-areas:
+        "topic topic topic"
+        "display-left blank display-right";
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+.item {
+    position: relative;
+}
+
+.icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    right: 2%;
+    top: 69%;
+    position: absolute;
+
+    background-image: url("../images/list_sprite.png");
+    background-repeat: no-repeat;
+    background-size: 24px 60px;
+}
+
+.desc {
+    padding-bottom: 1rem;
+    padding-left: 0.4rem;
+    background: white;
+
+    span {
+        line-height: 18px;
+        font-size: 14px;
+    }
+}
