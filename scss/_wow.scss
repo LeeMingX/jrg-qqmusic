@@ -1,5 +1,13 @@
 .wow {
-    padding: 1% 20% 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "chat chat"
+        "bullshit-left bullshit-right"
+        "junkinfo junkinfo";
+
+    padding: 2% 20% 10%;
 
     span,
     p {
@@ -7,6 +15,7 @@
     }
 
     .chat {
+        grid-area: chat;
         text-align: center;
 
         span {
@@ -15,30 +24,32 @@
         }
     }
 
-    .bullshit {
+    .bullshit-left {
+        grid-area: bullshit-left;
 
         img {
-            float: left;
-            max-width: 50%;
-            vertical-align: middle;
+            max-width: 100%;
         }
+    }
+
+    .bullshit-right {
+        grid-area: bullshit-right;
+        place-self: center;
 
         p {
-            float: left;
-            font-size: 30px;
-            margin-left: 35px;
-            margin-top: 25px;
+            font-size: 25px;
         }
     }
 
     .junkinfo {
+        grid-area: junkinfo;
         text-align: center;
         margin-top: 5px;
 
         p {
             letter-spacing: 2px;
-            line-height: 20px;
-            font-size: 15px;
+            line-height: 25px;
+            font-size: 20px;
         }
     }
 }

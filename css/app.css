@@ -94,83 +94,103 @@ nav > ul {
 .right {
   grid-area: display-right; }
 
-.left img,
-.right img {
-  max-width: 100%;
-  vertical-align: middle; }
+.desc-l {
+  grid-area: desc-left; }
+
+.desc-r {
+  grid-area: desc-right; }
+
+.left .item,
+.right .item {
+  position: relative;
+  overflow: hidden; }
+  .left .item img,
+  .right .item img {
+    width: 100%;
+    vertical-align: bottom; }
+  .left .item .icon,
+  .right .item .icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    right: 5px;
+    bottom: 10px;
+    position: absolute;
+    background-image: url("../images/list_sprite.png");
+    background-repeat: no-repeat;
+    background-size: 24px 60px; }
+
+.desc-l,
+.desc-r {
+  padding-bottom: 1rem;
+  padding-left: 0.4rem;
+  background: white; }
+  .desc-l span,
+  .desc-r span {
+    line-height: 18px;
+    font-size: 14px; }
 
 .display-container {
   display: grid;
-  grid-template-columns: [left-start] auto [left-end] 10px [right-start] auto [right-end];
+  grid-template-columns: [left-start] 49.4% [left-end] auto [right-start] 49.4% [right-end];
   grid-template-rows: auto;
-  grid-template-areas: "topic topic topic" "display-left blank display-right";
+  grid-template-areas: "topic topic topic" "display-left blank display-right" "desc-left blank desc-right";
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 7px; }
 
-.item {
-  position: relative; }
-
-.icon {
-  display: block;
-  width: 24px;
-  height: 24px;
-  right: 2%;
-  top: 69%;
-  position: absolute;
-  background-image: url("../images/list_sprite.png");
-  background-repeat: no-repeat;
-  background-size: 24px 60px; }
-
-.desc {
-  padding-bottom: 1rem;
-  padding-left: 0.4rem;
-  background: white; }
-  .desc span {
-    line-height: 18px;
-    font-size: 14px; }
-
 .wow {
-  padding: 1% 20% 5%; }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: "chat chat" "bullshit-left bullshit-right" "junkinfo junkinfo";
+  padding: 2% 20% 10%; }
   .wow span,
   .wow p {
     font-family: Tangguo; }
   .wow .chat {
+    grid-area: chat;
     text-align: center; }
     .wow .chat span {
       line-height: 40px;
       font-size: 30px; }
-  .wow .bullshit img {
-    float: left;
-    max-width: 50%;
-    vertical-align: middle; }
-  .wow .bullshit p {
-    float: left;
-    font-size: 30px;
-    margin-left: 35px;
-    margin-top: 25px; }
+  .wow .bullshit-left {
+    grid-area: bullshit-left; }
+    .wow .bullshit-left img {
+      max-width: 100%; }
+  .wow .bullshit-right {
+    grid-area: bullshit-right;
+    place-self: center; }
+    .wow .bullshit-right p {
+      font-size: 25px; }
   .wow .junkinfo {
+    grid-area: junkinfo;
     text-align: center;
     margin-top: 5px; }
     .wow .junkinfo p {
       letter-spacing: 2px;
-      line-height: 20px;
-      font-size: 15px; }
+      line-height: 25px;
+      font-size: 20px; }
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.3); }
+  background-color: rgba(255, 255, 255, 0.7); }
   footer div {
     background-color: #68C288;
     text-align: center;
-    margin: 10px 80px;
-    border-radius: 50px; }
+    margin: 10px auto;
+    border-radius: 50px;
+    width: 60%; }
     footer div span {
       color: white;
       font-size: 14px;
-      line-height: 33px; }
+      line-height: 33px;
+      white-space: nowrap; }
 
 .recommand {
+  height: 100%; }
+
+body {
   background: #f2f2f2; }

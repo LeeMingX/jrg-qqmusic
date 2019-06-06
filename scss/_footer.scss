@@ -2,18 +2,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: rgba($color: white, $alpha: 0.3);
+    background-color: rgba($color: white, $alpha: 0.7);
 
     div {
         background-color: #68C288;
         text-align: center;
-        margin: 10px 80px;
+        margin: 10px auto;
         border-radius: 50px;
+        width: 60%;
 
         span {
             color: white;
             font-size: 14px;
             line-height: 33px;
+            white-space: nowrap;
         }
     }
 }
