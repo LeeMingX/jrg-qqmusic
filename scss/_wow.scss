@@ -3,15 +3,15 @@
 
     span,
     p {
-        font-family: Wawati SC;
+        font-family: Tangguo;
     }
 
     .chat {
         text-align: center;
 
         span {
-            line-height: 40px;
-            font-size: 20px;
+            line-height: 50px;
+            font-size: 30px;
         }
     }
 
@@ -25,7 +25,7 @@
 
         p {
             float: left;
-            font-size: 20px;
+            font-size: 30px;
             margin-left: 35px;
             margin-top: 25px;
         }
@@ -34,8 +34,10 @@
     .junkinfo {
         text-align: center;
 
-        span {
-            font-size: 10px;
+        p {
+            letter-spacing: 2px;
+            line-height: 18px;
+            font-size: 15px;
         }
     }
 }
