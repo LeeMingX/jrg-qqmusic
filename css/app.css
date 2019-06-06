@@ -131,14 +131,14 @@ nav > ul {
     font-size: 14px; }
 
 .wow {
-  padding: 5% 20% 5%; }
+  padding: 1% 20% 5%; }
   .wow span,
   .wow p {
     font-family: Tangguo; }
   .wow .chat {
     text-align: center; }
     .wow .chat span {
-      line-height: 50px;
+      line-height: 40px;
       font-size: 30px; }
   .wow .bullshit img {
     float: left;
@@ -150,11 +150,27 @@ nav > ul {
     margin-left: 35px;
     margin-top: 25px; }
   .wow .junkinfo {
-    text-align: center; }
+    text-align: center;
+    margin-top: 5px; }
     .wow .junkinfo p {
       letter-spacing: 2px;
-      line-height: 18px;
+      line-height: 20px;
       font-size: 15px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3); }
+  footer div {
+    background-color: #68C288;
+    text-align: center;
+    margin: 10px 80px;
+    border-radius: 50px; }
+    footer div span {
+      color: white;
+      font-size: 14px;
+      line-height: 33px; }
 
 .recommand {
   background: #f2f2f2; }

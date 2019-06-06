@@ -1,5 +1,5 @@
 .wow {
-    padding: 5% 20% 5%;
+    padding: 1% 20% 5%;
 
     span,
     p {
@@ -10,7 +10,7 @@
         text-align: center;
 
         span {
-            line-height: 50px;
+            line-height: 40px;
             font-size: 30px;
         }
     }
@@ -33,10 +33,11 @@
 
     .junkinfo {
         text-align: center;
+        margin-top: 5px;
 
         p {
             letter-spacing: 2px;
-            line-height: 18px;
+            line-height: 20px;
             font-size: 15px;
         }
     }
