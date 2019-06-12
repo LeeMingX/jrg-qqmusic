@@ -1,0 +1,55 @@
+.card-left {
+    grid-area: card-left;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100px;
+        vertical-align: middle;
+    }
+
+    span {
+        position: absolute;
+    }
+}
+
+.card-right {
+    grid-area: card-right;
+
+    .head>span {
+        line-height: 26px;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    ol {
+        list-style: none;
+        padding-top: 8px;
+
+        span {
+            color: grey;
+        }
+
+        li {
+            font-size: 14px;
+        }
+
+        .lid {
+            font-size: 14px;
+            padding-top: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "card-left card-right";
+    margin: 10px 10px 10px;
+    background-color: white;
+}
